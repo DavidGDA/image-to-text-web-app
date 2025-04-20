@@ -12,7 +12,7 @@ export default function FileSelector() {
   let apiURL: string = "";
 
   if (import.meta.env.MODE === "production") {
-    apiURL = "https://image-to-text-backend-1997.onrender.com";
+    apiURL = "https://image-to-text-backend-p90s.onrender.com";
   } else {
     apiURL = "http://localhost:8000";
   }

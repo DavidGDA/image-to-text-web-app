@@ -16,7 +16,7 @@ else:
     pytesseract.pytesseract.tesseract_cmd = os.environ.get("TESSERACT_EXE_PATH")
 
 if ENVIRONMENT == "production":
-    allowed_origins = ["https://image-to-text-p5w2.onrender.com"]
+    allowed_origins = ["https://image-to-text-br9y.onrender.com"]
 else:
     allowed_origins = [
         "http://localhost:10000",

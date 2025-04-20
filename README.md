@@ -6,7 +6,7 @@ Este proyecto es una aplicación web que permite convertir imágenes en texto ut
 
 [![Deployed on Render](https://img.shields.io/badge/Deployed_on_Render-%23000000.svg?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
 
-**¡Puedes ver la aplicación en funcionamiento en [https://image-to-text-p5w2.onrender.com](https://image-to-text-p5w2.onrender.com)!**
+**¡Puedes ver la aplicación en funcionamiento en [https://image-to-text-br9y.onrender.com](https://image-to-text-br9y.onrender.com)!**
 
 > [!NOTE]
 > La aplicación puede tardar un poco en cargar la primera vez que la abras, ya que Render necesita inicializar el contenedor. Si no ves la aplicación de inmediato, espera unos minutos y vuelve a intentarlo.
