@@ -1,0 +1,117 @@
+:root {
+  --platinum: #dcdcddff;
+  --outer-space: #46494cff;
+  --paynes-gray: #4c5c68ff;
+  --blue-munsell: #1985a1ff;
+}
+
+header {
+  background-color: var(--paynes-gray);
+  padding: 15px;
+  box-shadow: gray 0px 2px 5px;
+  color: white;
+}
+
+#header-page-name-title {
+  font-size: x-large;
+  font-weight: normal;
+}
+
+#information-section {
+  text-align: center;
+}
+
+#information-section > * {
+    margin: 20px 0;
+}
+
+.file-selection-section, .text-results-section {
+  margin: 0 2dvw 20px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 3px dashed var(--paynes-gray); 
+  background-color: var(--platinum);
+}
+
+.file-selection-section > *, .text-results-section > * {
+  margin: 5px 0;
+}
+
+input[type=file] {
+  padding: 10px;
+  border: 1px solid var(--paynes-gray);
+  border-radius: 10px;
+}
+
+input[type=file]::file-selector-button, button {
+  margin-right: 20px;
+  border: none;
+  background-color: var(--blue-munsell);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+#text-result {
+  width: 80%;
+  height: 50%;
+}
+
+input[type=file]::file-selector-button:hover, button:hover {
+  background-color: #0d45a5;
+}
+
+#loader {
+  width: 15px;
+  height: 15px;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: var(--blue-munsell);
+  animation: pulse 0.5s infinite;
+}
+
+#error-text {
+  color: red;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 600px) {
+    #header-page-name-title {
+        font-size: large;
+    }
+
+    #information-section {
+        font-size: medium;
+    }
+
+    .file-selection-section, .text-results-section {
+        font-size: small;
+    }
+
+    input[type=file] {
+      padding: 5px 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    #information-section {
+        font-size: small;
+    }
+}

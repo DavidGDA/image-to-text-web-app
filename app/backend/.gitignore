@@ -1,0 +1,56 @@
+# Tesseract directory
+tesseract-ocr/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Pytest
+.cache/
+*.pytest_cache/
+
+# FastAPI
+*.log
+*.pid
+*.bak
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Pytesseract temporary files
+*.tesseract_temp/
