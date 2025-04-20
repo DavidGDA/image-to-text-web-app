@@ -24,6 +24,7 @@ Esta aplicación está construida utilizando las siguientes tecnologías:
 - [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/) ![6.3.2](https://img.shields.io/badge/6.3.2-gray?style=for-the-badge)
 - [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/) ![19.1.0](https://img.shields.io/badge/19.1.0-gray?style=for-the-badge)
 - [![Docker](https://img.shields.io/badge/docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/) ![28.0.4](https://img.shields.io/badge/28.0.4-gray?style=for-the-badge)
+- [![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)](https://www.nginx.com/) ![1.26.3](https://img.shields.io/badge/1.26.3-gray?style=for-the-badge)
 
 ## Instalación del proyecto
 
