@@ -101,25 +101,6 @@ export default function FileSelector() {
     );
   }
 
-  if (error) {
-    return (
-      <section className="file-selection-section">
-        <h2>Selecciona, pega o arrastra una imagen</h2>
-        <input
-          type="file"
-          onChange={(e) => setFile(e.target.files ? e.target.files[0] : null)}
-        />
-        <button onClick={handleUpload}>Extraer texto</button>
-        <span>
-          <p id="error-text">{error}</p>
-        </span>
-        <span>
-          <p>Tipos de archivos admitidos: .png, .jpg, .jpeg</p>
-        </span>
-      </section>
-    );
-  }
-
   if (view === "results") {
     return (
       <section className="text-results-section">
@@ -155,6 +136,13 @@ export default function FileSelector() {
         onChange={(e) => setFile(e.target.files ? e.target.files[0] : null)}
       />
       <button onClick={handleUpload}>Extraer texto</button>
+      {error ? (
+        <span>
+          <p id="error-text">{error}</p>
+        </span>
+      ) : (
+        ""
+      )}
       <span>
         <p>Tipos de archivos admitidos: .png, .jpg, .jpeg</p>
       </span>
