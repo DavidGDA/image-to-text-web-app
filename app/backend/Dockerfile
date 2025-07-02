@@ -11,7 +11,7 @@ COPY requirements.txt /app/requirements.txt
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY app.py /app/app.py
+COPY ./src/app.py /app/app.py
 
 ENV TESSERACT_EXE_PATH=/usr/bin/tesseract
 
